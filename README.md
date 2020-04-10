@@ -56,3 +56,13 @@ npm install @aligilan/infinitescroll --save
     }
 </script>
 ```
+
+# Options
+| Option | Description |
+| ----- | ----- |
+| :id | set an id for loader element. |
+| :enough | flag to visible loader or hide. |
+| :offset | add offset to current page scroll position, before reach loader position. |
+
+# Event
+@load-more: When page current scroll position reached loader position, will emit this event.
