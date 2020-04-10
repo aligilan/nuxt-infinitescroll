@@ -1,3 +1,3 @@
 # nuxt-infinitescroll
-An infinite scroll for nuxt applications
+An infinite scroll for nuxt applications  
 This is readme file, i will put more descriptions hear ...
