@@ -53,7 +53,7 @@ modules:[
             try{
                 let result = await this.$axios.$get(`my-api-url?page=${this.page++}`);
                 if(result.success == 'true'){
-                    this.dataArray = this.this.dataArray.concat(result.data);
+                    this.dataArray = this.dataArray.concat(result.data);
                     // Stop scroll-loader
                     result.data.length < this.pageSize && (this.enough = true);
                 }
