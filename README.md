@@ -1,6 +1,9 @@
 # nuxt-infinitescroll
 An infinite scroll for nuxt applications  
 
+# Requirements
+bootstrap-vue: ^2.9.0
+
 # Install
 ```Bash
 npm install @aligilan/infinitescroll --save
