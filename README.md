@@ -8,6 +8,14 @@ npm install @aligilan/infinitescroll --save
 
 # Usage
 ```Bash
+...
+modules:[
+    '@aligilan/infinitescroll'
+],
+...
+```
+
+```Bash
 <template>
     <div>
         <ul>
@@ -18,8 +26,7 @@ npm install @aligilan/infinitescroll --save
         </ul>
     </div>
 </template>
-```
-```Bash
+
 <script>
     data(){
         return{
